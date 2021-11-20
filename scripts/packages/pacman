@@ -1,11 +1,11 @@
-git
+# Base System
 lsb-release
 base-devel
 fakeroot
 gcc
 grep
 net-tools
-mtr
+mtr # tracert
 clang
 cmake
 make
@@ -13,23 +13,74 @@ zsh
 pkgfile
 curl
 wget
+git
+
+# Terminal command
+guake
+
+# Browser
+brave
+chromium
+
+# Social Networks
+discord
+telegram-desktop
+
+# Java
+openjdk11-doc
+openjdk11-src
+
+# Compilers and package managers
 nodejs
 npm
 yarn
+pypy3
+python-pip
+go
+docker
+docker-compose
+
+# Text editors
 vim
 nano
+gedit
 neovim
 vscode
-neofetch
-nemo
-baobab
-cowsay
+
+# Images
+deepin-image-viewer
+deepin-screenshot-recorder
+flameshot
+gimp
+
+# Video
+ffmpeg
 vlc
+youtube-dl
 obs-studio
+simplescreenrecorder
+
+# Files managers
+nemo
+
+# Archive managers and Nautilus extras
 tar
 zip
+file-roller
+seahorse-nautilus
+nautilus-share
+zlib
+p7zip
+zziplib
 unzip
 unrar
-openjdk11-doc
-openjdk11-src
-python-pip
+
+# System Information
+neofetch
+screenfetch
+deepin-system-monitor
+
+# useful
+testdisk
+baobab
+cowsay
