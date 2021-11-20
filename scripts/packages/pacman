@@ -29,6 +29,7 @@ telegram-desktop
 # Java
 openjdk11-doc
 openjdk11-src
+toolbox
 
 # Compilers and package managers
 nodejs

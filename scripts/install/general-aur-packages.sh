@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 echo "[START]: aur/external-packages installation..."
 
