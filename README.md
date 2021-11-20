@@ -11,7 +11,7 @@ Those are my arch dotfiles, hope you find something useful here.
 
 ## Download
 ```
-mkdir -p ~/Documents/git-lab && git clone --depth=1 https://github.com/christiantusset/dotfiles-arch.git ~/Documents/git-lab/dotfiles && cd ~/Documents/git-lab/dotfiles
+git clone --depth=1 https://github.com/christiantusset/dotfiles-arch.git ~/Documents/dotfiles-arch
 ```
 
 ## Executing the script
