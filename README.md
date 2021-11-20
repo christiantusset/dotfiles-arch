@@ -32,6 +32,8 @@ where
 may be:
 
 ```
+all          - installs all at once: pacman packages, aur packages, xfce packages
 pacman       - installs necessary packages from pacman
 aur          - installs necessary packages from AUR and external sources
+xfce         - installs necessary packages from XFCE Interface
 ```

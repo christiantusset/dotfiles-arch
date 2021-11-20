@@ -2,11 +2,11 @@
 
 option=$1
 
-#shopt -s nocasematch
 case "$option" in
-    "all" )     ./scripts/pacman-packages.sh && ./setup-scripts/aur-packages.sh ;;
-    "pacman" )  ./scripts/pacman-packages.sh ;;
-    "aur" )     ./scripts/aur-packages.sh ;;
+    "all" )     ./scripts/install/general-pacman-packages.sh && ./scripts/install/general-aur-packages.sh && ./scripts/install/interface-xfce-packages.sh ;;
+    "pacman" )  ./scripts/install/general-pacman-packages.sh ;;
+    "aur" )     ./scripts/install/general-aur-packages.sh ;;
+    "xfce" )    ./scripts/install/interface-xfce-packages.sh ;;
 
     *) echo "[ERROR]: no install flag with name \"$option\" found" && exit 1 ;;
 esac
