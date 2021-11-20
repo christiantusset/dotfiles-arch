@@ -19,11 +19,11 @@ You can install one of them by running the setup executable.
 
 ### Execution example
 
-    cd ~/Documents/dotfiles-arch && sudo sh setup.sh all
+    cd ~/Documents/dotfiles-arch && sudo bash setup.sh all
 
 ### Use
 
-    sudo sh setup.sh <ARG>
+    sudo bash setup.sh <ARG>
 
 where ```<ARG>``` may be:
 
