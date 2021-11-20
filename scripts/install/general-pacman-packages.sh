@@ -3,7 +3,7 @@
 echo "[START]: general-packages installation..."
 yes | sudo pacman -Syu
 
-packages="$(sed -e 's/\s*#.*$//g' -e '/^$/d' ./scripts/packages/arch)"
+packages="$(sed -e 's/\s*#.*$//g' -e '/^$/d' /scripts/packages/pacman)"
 
 echo "  > installing ~ $(<<< "$packages" tr '\n' ' ')"
 _do pacman -S --needed --noconfirm - <<< "$packages"

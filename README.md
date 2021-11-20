@@ -17,7 +17,7 @@ sudo pacman -Sy git && git clone --depth=1 https://github.com/christiantusset/do
 You can install one of them by running the setup executable.
 * **[WARNING]**: Support for Arch Linux based systems only (installation via pacman).
 
-### Execution example
+### Execution
 
     sudo sh setup.sh all
 
