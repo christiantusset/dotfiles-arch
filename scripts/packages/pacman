@@ -19,7 +19,7 @@ git
 guake
 
 # Browser
-brave-bin
+vivaldi
 chromium
 
 # Social Networks
@@ -49,7 +49,7 @@ vscode
 
 # Images
 deepin-image-viewer
-deepin-screenshot-recorder
+deepin-screen-recorder
 flameshot
 gimp
 
