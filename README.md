@@ -19,11 +19,11 @@ You can install one of them by running the setup executable.
 
 ### Execution
 
-    sudo sh setup.sh all
+    bash setup.sh all
 
 ### Use
 
-    sudo sh setup.sh <ARG>
+    bash setup.sh <ARG>
 
 where ```<ARG>``` may be:
 
