@@ -11,7 +11,7 @@ echo "[START]: aur/external-packages installation..."
 
 # yay
 # https://aur.archlinux.org/yay.git
-sudo pacman -Qi yay || ./scripts/others/aur-get.sh https://aur.archlinux.org/yay.git
+sudo pacman -Qi yay || sudo sh ./scripts/others/aur-get.sh https://aur.archlinux.org/yay.git
 yay -Syu
 
 yes "y" | yay -S --noconfirm --useask --norebuild --needed --batchinstall --mflags --skipinteg --overwrite "*" --nodeps `cat ./scripts/packages/aur` || exit 1
