@@ -1,8 +1,11 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 echo "[START]: general-packages installation..."
-
 yes | sudo pacman -Syu
-yes | sudo pacman -Sy --needed --overwrite "*" --nodeps --nodeps `cat ./scripts/packages/pacman` || exit 1
+
+packages="$(sed -e 's/\s*#.*$//g' -e '/^$/d' ./scripts/packages/arch)"
+
+echo "  > installing ~ $(<<< "$packages" tr '\n' ' ')"
+_do pacman -S --needed --noconfirm - <<< "$packages"
 
 echo "[FINISHED]: general-packages installation"
