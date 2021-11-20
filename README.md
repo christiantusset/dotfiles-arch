@@ -10,7 +10,7 @@ Those are my arch dotfiles, hope you find something useful here.
 
 ## Download
 ```
-sudo pacman -Sy git && git clone --depth=1 https://github.com/christiantusset/dotfiles-arch.git ~/Documents/dotfiles-arch
+sudo pacman -Sy git && git clone --depth=1 https://github.com/christiantusset/dotfiles-arch.git ~/Documents/dotfiles-arch && cd ~/Documents/dotfiles-arch
 ```
 
 ## Executing the script
@@ -19,11 +19,11 @@ You can install one of them by running the setup executable.
 
 ### Execution example
 
-    cd ~/Documents/dotfiles-arch && sudo bash setup.sh all
+    sudo sh setup.sh all
 
 ### Use
 
-    sudo bash setup.sh <ARG>
+    sudo sh setup.sh <ARG>
 
 where ```<ARG>``` may be:
 

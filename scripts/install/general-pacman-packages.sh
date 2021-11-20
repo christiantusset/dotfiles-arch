@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 echo "[START]: general-packages installation..."
 yes | sudo pacman -Syu
