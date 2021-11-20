@@ -5,7 +5,7 @@ fakeroot
 gcc
 grep
 net-tools
-mtr #tracert
+mtr
 clang
 cmake
 make
