@@ -4,8 +4,8 @@
 echo "[START]: general-packages installation..."
 
 # Temp Files
-O="$(mktemp --tmpdir "${USER}-install-arch-out.XXXXXXXX")"
-E="$(mktemp --tmpdir "${USER}-install-arch-err.XXXXXXXX")"
+O="$(mktemp --tmpdir install-arch-out.XXXXXXXX)"
+E="$(mktemp --tmpdir install-arch-err.XXXXXXXX)"
 
 # Functions
 function _exit ( ) {
