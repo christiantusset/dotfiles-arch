@@ -29,7 +29,6 @@ telegram-desktop
 # Java
 openjdk11-doc
 openjdk11-src
-toolbox
 
 # Compilers and package managers
 nodejs
@@ -49,8 +48,6 @@ neovim
 vscode
 
 # Images
-deepin-image-viewer
-deepin-screen-recorder
 flameshot
 gimp
 
@@ -79,9 +76,13 @@ unrar
 # System Information
 neofetch
 screenfetch
-deepin-system-monitor
 
 # useful
 testdisk
 baobab
 cowsay
+
+# deepin
+#deepin-system-monitor
+#deepin-image-viewer
+#deepin-screen-recorder

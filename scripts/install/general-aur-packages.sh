@@ -15,6 +15,5 @@ sudo pacman -Qi yay || sh ./scripts/others/aur-get.sh https://aur.archlinux.org/
 yay -Syu
 
 yes "y" | yay -S --noconfirm --useask --norebuild --needed --batchinstall --mflags --skipinteg --overwrite "*" --nodeps `cat ./scripts/packages/aur` || exit 1
-yes "y" | yay -S --noconfirm --useask --norebuild --needed --batchinstall --mflags --skipinteg --overwrite "*" --nodeps wmutils-git ueberzug
 
 echo "[FINISHED]: aur/external-packages installation"
