@@ -4,7 +4,7 @@ Those are my arch dotfiles.
 
 ![alt text](resources/readme-info.png)
 
-      I use Arch XFCE 
+      I use Arch Linux 
        \
         \
             .--.
