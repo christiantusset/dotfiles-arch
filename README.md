@@ -4,7 +4,7 @@
 
 Those are my arch dotfiles, hope you find something useful here.
 
-![alt text](resources/readme-neofetch.png)
+![alt text](resources/readme-info.png)
 
       I use Arch XFCE 
        \
