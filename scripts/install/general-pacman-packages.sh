@@ -43,6 +43,13 @@ packages="$(sed -e 's/\s*#.*$//g' -e '/^$/d' ./scripts/packages/pacman)"
 echo "  > installing ~ $(<<< "$packages" tr '\n' ' ')"
 _do pacman -S --needed --noconfirm - <<< "$packages"
 
+# Docker
+sudo pacman -S --needed --noconfirm docker docker-compose
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+sudo usermod -aG docker $USER
+systemctl start docker.service /status/stop
+
 # Finish
 echo "[FINISHED]: general-packages installation"
 _exit 0
