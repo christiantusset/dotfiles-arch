@@ -2,7 +2,7 @@
 
 ### Hello there! :octocat: :octocat: :octocat:
 
-Those are my arch dotfiles, hope you find something useful here.
+Those are my arch dotfiles.
 
 ![alt text](resources/readme-info.png)
 
