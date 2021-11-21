@@ -1,6 +1,6 @@
 ![alt text](resources/readme-dotfiles.png)
 
-### :octocat: Hello there!
+### Hello there! :octocat: :octocat: :octocat:
 
 Those are my arch dotfiles, hope you find something useful here.
 
@@ -31,7 +31,6 @@ where ```<ARG>``` may be:
 all          - installs all at once: pacman packages, aur packages, xfce packages
 pacman       - installs necessary packages from pacman
 aur          - installs necessary packages from AUR and external sources
-xfce         - installs necessary packages from XFCE Interface
 ```
 
 ### Hardware Dependent Software
