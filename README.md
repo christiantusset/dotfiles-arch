@@ -4,6 +4,18 @@
 
 Those are my arch dotfiles, hope you find something useful here.
 
+![alt text](resources/readme-neofetch.png)
+
+      I use Arch XFCE 
+       \
+        \
+            .--.
+           |o_o |
+           |:_/ |
+          //   \ \
+         (|     | )
+        /'\_   _/`\
+        \___)=(___/
 
 ![alt text](resources/readme-scripts.png)
 
@@ -46,7 +58,7 @@ aur          - installs necessary packages from AUR and external sources
 - **Wallpaper** →                  [Material Design]()
 - **Window Manager** →             [Sweet Ambar](https://wiki.archlinux.org/index.php/zsh)
 
-## [👨‍💻 Futuristic](https://github.com/EliverLara/Sweet)
+## [👨‍💻 Futuristic](https://www.pling.com/p/1352568)
 - **Theme** →                      [Pandora Arc [oomox]](https://www.pling.com/p/1352568/)
 - **Icons** →                      [Candy Icons](https://www.pling.com/p/1305251/)
 - **Cursor** →                     [Fossa Cursors](https://www.pling.com/p/1377483/)
