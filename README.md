@@ -1,7 +1,5 @@
 ![alt text](resources/readme-dotfiles.png)
-
 ### Hello there! :octocat: :octocat: :octocat:
-
 Those are my arch dotfiles.
 
 ![alt text](resources/readme-info.png)
@@ -17,10 +15,27 @@ Those are my arch dotfiles.
         /'\_   _/`\
         \___)=(___/
 
+
+![alt text](resources/readme-themes.png)
+# XFCE
+## [🧛 SweetDark](https://github.com/EliverLara/Sweet)
+- **Theme** →                      [SweetDark](https://www.pling.com/p/1253385/)
+- **Icons** →                      [Reversal Blue dark](https://www.pling.com/p/1340791/)
+- **Cursor** →                     [Sweet cursors](https://www.gnome-look.org/p/1393084/)
+- **Wallpaper** →                  [Material Design]()
+- **Window Manager** →             [Sweet Ambar](https://wiki.archlinux.org/index.php/zsh)
+
+## [👨‍💻 Futuristic](https://www.pling.com/p/1352568)
+- **Theme** →                      [Pandora Arc [oomox]](https://www.pling.com/p/1352568/)
+- **Icons** →                      [Candy Icons](https://www.pling.com/p/1305251/)
+- **Cursor** →                     [Fossa Cursors](https://www.pling.com/p/1377483/)
+- **Wallpaper** →                  [Ultraviolet 4K]()
+- **Window Manager** →             [Pandora glowing theme](https://www.pling.com/p/1396322/)
+
+
 ![alt text](resources/readme-scripts.png)
 
 # :rocket: Getting started
-
 ## Download
 ```
 sudo pacman -Sy git && git clone --depth=1 https://github.com/christiantusset/dotfiles-arch.git ~/Documents/dotfiles-arch && cd ~/Documents/dotfiles-arch
@@ -46,27 +61,7 @@ pacman       - installs necessary packages from pacman
 aur          - installs necessary packages from AUR and external sources
 ```
 
-
-![alt text](resources/readme-themes.png)
-
-# XFCE
-
-## [🧛 SweetDark](https://github.com/EliverLara/Sweet)
-- **Theme** →                      [SweetDark](https://www.pling.com/p/1253385/)
-- **Icons** →                      [Reversal Blue dark](https://www.pling.com/p/1340791/)
-- **Cursor** →                     [Sweet cursors](https://www.gnome-look.org/p/1393084/)
-- **Wallpaper** →                  [Material Design]()
-- **Window Manager** →             [Sweet Ambar](https://wiki.archlinux.org/index.php/zsh)
-
-## [👨‍💻 Futuristic](https://www.pling.com/p/1352568)
-- **Theme** →                      [Pandora Arc [oomox]](https://www.pling.com/p/1352568/)
-- **Icons** →                      [Candy Icons](https://www.pling.com/p/1305251/)
-- **Cursor** →                     [Fossa Cursors](https://www.pling.com/p/1377483/)
-- **Wallpaper** →                  [Ultraviolet 4K]()
-- **Window Manager** →             [Pandora glowing theme](https://www.pling.com/p/1396322/)
-
-
-# Hardware Dependent Software
+# Hardware dependent software
 
 ## Graphics
 
