@@ -28,7 +28,7 @@ You can install one of them by running the setup executable.
 where ```<ARG>``` may be:
 
 ```
-all          - installs all at once: pacman packages, aur packages, xfce packages
+all          - installs all at once: pacman packages, aur packages
 pacman       - installs necessary packages from pacman
 aur          - installs necessary packages from AUR and external sources
 ```
