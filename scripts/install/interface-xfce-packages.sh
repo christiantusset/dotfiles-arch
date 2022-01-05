@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Start
-echo "[START]: xfce-packages installation..."
+echo "[START]: xfce-packages installation ..."
 
 # Update System
 yes | sudo pacman -Syu
@@ -18,5 +18,5 @@ yay -Syu
 yes "y" | yay -S --noconfirm --useask --norebuild --needed --batchinstall --mflags --skipinteg --overwrite "*" --nodeps `cat ./scripts/packages/interfaces/xfce-aur` || exit 1
 
 # Finish
-echo "[FINISHED]: xfce-packages installation in background."
+echo "[FINISHED]: xfce-packages in background."
 exit 0
