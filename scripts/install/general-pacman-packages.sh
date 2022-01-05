@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Start
-echo "[START]: general-packages installation..."
+echo "[START]: general-packages installation ..."
 
 # Temp Files
 O="$(mktemp --tmpdir install-arch-out.XXXXXXXX)"
@@ -51,5 +51,5 @@ sudo usermod -aG docker $USER
 systemctl start docker.service /status/stop
 
 # Finish
-echo "[FINISHED]: general-packages installation"
+echo "[FINISHED]: general-packages"
 _exit 0
