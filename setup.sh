@@ -8,5 +8,5 @@ case "$option" in
     "aur" )     sh ./scripts/install/general-aur-packages.sh ;;
     #"xfce" )    sh ./scripts/install/interface-xfce-packages.sh ;;
 
-    *) echo "[ERROR]: no install flag with name \"$option\" found" && exit 1 ;;
+    *) echo "[ERROR]: Not found any option with the name \"$option\"" && exit 1 ;;
 esac
