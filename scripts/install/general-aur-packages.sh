@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "[START]: aur/external-packages installation..."
+echo "[START]: aur/external packages installation ..."
 
 # output packages directory creation
 [ -d $HOME/Downloads/git-downloads ] || mkdir -p $HOME/Downloads/git-downloads
@@ -16,4 +16,4 @@ yay -Syu
 
 yes "y" | yay -S --noconfirm --useask --norebuild --needed --batchinstall --mflags --skipinteg --overwrite "*" --nodeps `cat ./scripts/packages/aur` || exit 1
 
-echo "[FINISHED]: aur/external-packages installation"
+echo "[FINISHED]: aur/external-packages"
