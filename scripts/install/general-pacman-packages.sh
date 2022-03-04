@@ -50,6 +50,9 @@ sudo systemctl enable docker.service
 sudo usermod -aG docker $USER
 systemctl start docker.service /status/stop
 
+# Oh-My-Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Finish
 echo "[FINISHED]: general-packages"
 _exit 0
