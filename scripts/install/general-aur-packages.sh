@@ -19,4 +19,10 @@ yes "y" | yay -S --noconfirm --useask --norebuild --needed --batchinstall --mfla
 # nvm
 nvm install node
 
+# plugins zsh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/agkozak/zsh-z ~/.oh-my-zsh/custom/plugins/zsh-z
+
+
 echo "[FINISHED]: aur/external-packages"
