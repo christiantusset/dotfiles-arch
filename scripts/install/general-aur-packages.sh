@@ -16,4 +16,7 @@ yay -Syu
 
 yes "y" | yay -S --noconfirm --useask --norebuild --needed --batchinstall --mflags --skipinteg --overwrite "*" --nodeps `cat ./scripts/packages/aur` || exit 1
 
+# nvm
+nvm install node
+
 echo "[FINISHED]: aur/external-packages"

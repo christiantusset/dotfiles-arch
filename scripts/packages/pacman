@@ -62,16 +62,16 @@ simplescreenrecorder
 nemo
 
 # Archive managers and Nautilus extras
+#seahorse-nautilus
+#nautilus-share
 tar
 zip
-file-roller
-seahorse-nautilus
-nautilus-share
 zlib
-p7zip
-zziplib
 unzip
 unrar
+p7zip
+zziplib
+file-roller
 
 # System Information
 neofetch
