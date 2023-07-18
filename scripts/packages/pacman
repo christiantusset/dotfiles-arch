@@ -9,11 +9,15 @@ mtr # tracert
 clang
 cmake
 make
-zsh
 pkgfile
 curl
 wget
 git
+
+# Bash
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
 
 # Terminal command
 guake
