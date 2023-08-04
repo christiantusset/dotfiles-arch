@@ -45,10 +45,9 @@ _do pacman -S --needed --noconfirm - <<< "$packages"
 
 # Docker
 sudo pacman -S --needed --noconfirm docker docker-compose
-sudo systemctl start docker.service
-sudo systemctl enable docker.service
+sudo systemctl enable docker.service --now
 sudo usermod -aG docker $USER
-systemctl start docker.service /status/stop
+#systemctl start docker.service /status/stop
 
 # Oh-My-Zsh
 #https://medium.com/tech-notes-and-geek-stuff/install-zsh-on-arch-linux-manjaro-and-make-it-your-default-shell-b0098b756a7a
