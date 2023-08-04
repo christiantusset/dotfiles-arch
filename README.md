@@ -102,3 +102,8 @@ In general, check out [*Power management* on the Arch wiki](https://wiki.archlin
 For systems with hybrid graphics (with both an integrated GPU and a dedicated
 GPU), see [Bumblebee](https://wiki.archlinux.org/index.php/Bumblebee) to save
 laptop battery or energy.
+
+## FAQs
+
+#### Set default ZSH
+```chsh -s $(which zsh)```
