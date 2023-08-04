@@ -93,7 +93,7 @@ pages on the wiki.
 
 ### vmware
 
-	sudo pacman -Sy open-vm-tools && sudo systemctl enable vmtoolsd && sudo systemctl start vmtoolsd
+	sudo pacman -Sy open-vm-tools && sudo systemctl enable vmtoolsd --now
 
 ## Power Management
 
