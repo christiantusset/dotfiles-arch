@@ -58,7 +58,6 @@ gimp
 # Video
 ffmpeg
 vlc
-youtube-dl
 obs-studio
 simplescreenrecorder
 
