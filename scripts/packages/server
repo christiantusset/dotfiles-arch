@@ -1,0 +1,31 @@
+## --- Installation Guide ArchLinux Server ---
+#Download: https://archlinux.org/download/
+
+#pacman -Sy archlinux-keyring
+#pacman-key --init
+#pacman -Sy archinstall
+
+#- Maybe you don't need it:
+#pacman-key --refresh-keys
+
+# -------- FIX IP ---------
+
+#sudo pacman -Sy net-tools
+#ifconfig 
+#Save ipv4 and ipv6 to set fix IP
+
+#- Config Network
+#cd /etc/systemd/network
+#nano 20-ethernet.network
+
+[Network]
+Address=XXXXXXXXXXXXXXXXXX/64
+Address=XXX.XXX.X.XX/24
+Gateway=192.168.1.1
+DNS=192.168.1.1
+DNS=2606:4700:4700::1111
+#Resto comentado
+
+# -------- SSH ---------
+#sudo pacman -Sy openssh
+#sudo systemctl enable sshd.service --now
