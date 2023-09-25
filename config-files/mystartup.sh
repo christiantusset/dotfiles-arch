@@ -6,7 +6,7 @@ sudo systemctl restart vmtoolsd
 
 #sudo chmod +x ~/mystartup.sh
 #$ crontab -e
-#@reboot  /home/user/startup.sh
+#@reboot  ~/mystartup.sh
 
 #OR
 #ln -s /etc/init.d/start_my_app /etc/rc.d/
