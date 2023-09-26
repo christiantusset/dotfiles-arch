@@ -59,7 +59,7 @@ gimp
 ffmpeg
 vlc
 obs-studio
-simplescreenrecorder
+#simplescreenrecorder
 
 # Files managers
 nemo
