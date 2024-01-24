@@ -60,7 +60,7 @@ alias cppcompile='c++ -std=c++11 -stdlib=libc++' # cpp compile
 alias dpkgrepair='sudo dpkg --configure -a' # Repair o dpkg
 alias google='ping -t 3 www.google.com.br' # Ping google
 alias mvninstall='mvn install -DskipTests -e' # Maven
-alias update='sudo pacman -Syu' # Update pacman
+alias update='sudo pacman -Sy archlinux-keyring && sudo pacman -Syu' # Update pacman
 alias cls='clear' # clear console
 alias g='git' # git
 
