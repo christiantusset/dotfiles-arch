@@ -23,16 +23,16 @@ zsh-syntax-highlighting
 guake
 
 # Browser
-firefox
+#firefox
 chromium
 
 # Social Networks
-discord
-telegram-desktop
+#discord
+#telegram-desktop
 
 # Java
-openjdk11-doc
-openjdk11-src
+#openjdk11-doc
+#openjdk11-src
 
 # Compilers and package managers
 nodejs
@@ -58,7 +58,7 @@ gimp
 # Video
 ffmpeg
 vlc
-obs-studio
+#obs-studio
 #simplescreenrecorder
 
 # Files managers
@@ -78,7 +78,7 @@ file-roller
 
 # System Information
 neofetch
-screenfetch
+#screenfetch
 
 # useful
 testdisk
