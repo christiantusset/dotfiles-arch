@@ -5,7 +5,8 @@ sudo systemctl restart vmtoolsd
 
 
 #sudo chmod +x ~/mystartup.sh
-#$ crontab -e
+#sudo pacman -Syu cronie && sudo systemctl enable cronie.service --now
+#crontab -e
 #@reboot  ~/mystartup.sh
 
 #OR
