@@ -77,7 +77,7 @@ pages on the wiki.
 
 ### amd
 
-	sudo pacman -Sy mesa vulkan-intel
+	sudo pacman -S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau libva-utils
 
 ### intel
 
