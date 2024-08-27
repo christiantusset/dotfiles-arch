@@ -19,6 +19,11 @@ zsh
 zsh-autosuggestions
 zsh-syntax-highlighting
 
+#Stats
+htop
+nload #network runtime
+vnstat #network general
+
 # Terminal command
 guake
 
